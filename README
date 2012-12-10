@@ -12,6 +12,8 @@ To add additional files to that repo repeat these steps except skip step 5.
 
 To modify a file and post it to the remote GitHub repository:
 
+> git checkout README
+<edit and save file>
 > git add README
 > git commit -m "updated README"
 > git remote add origin https://github.com/johnrnoone/JohnNooneGitRepository.git
