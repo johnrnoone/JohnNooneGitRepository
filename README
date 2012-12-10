@@ -1,1 +1,12 @@
-Hello World!
+
+Procedure to create a new GITHUB repository
+
+1. cd /Users/John/Development/exports/Couchbase
+2. git init
+3. git add *
+4. git commit -m "Couchbase"
+5. git remote add origin https://github.com/johnrnoone/Couchbase.git
+6. git push -u origin master
+
+To add additional files to that repo repeat these steps except skip step 5.
+
