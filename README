@@ -10,3 +10,15 @@ Procedure to create a new GITHUB repository
 
 To add additional files to that repo repeat these steps except skip step 5.
 
+To modify a file and post it to the remote GitHub repository:
+
+> git add README
+> git commit -m "updated README"
+> git remote add origin https://github.com/johnrnoone/JohnNooneGitRepository.git
+> git push -u origin master
+
+
+Note: To undo any file changes since the last commit: git reset --hard
+Note: To remove any added files and folder since the last commit: git clean -d -f
+Note: To change the last commit: git commit --amend
+
